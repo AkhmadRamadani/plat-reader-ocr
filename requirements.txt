@@ -6,9 +6,13 @@ Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==1.0.1
 numpy
-firebase_admin
+pandas
+scikit-learn
+matplotlib
+tensorflow-cpu
+opencv-contrib-python-headless
+urllib3
+firebase-admin
+datetime
 easyocr
 pytz
-datetime
-matplotlib
-opencv-contrib-python-headles
