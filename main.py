@@ -15,7 +15,6 @@ import re
 import base64
 import ssl
 import numpy as np
-from flask_cors import CORS
 
 app = Flask(__name__)
 timezone = pytz.timezone('Asia/Jakarta')
@@ -135,4 +134,4 @@ def predictPlat64():
         }), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=8000), host='0.0.0.0', ssl_context='adhoc')
+    app.run(debug=True, port=os.getenv("PORT", default=8000), host='0.0.0.0')
